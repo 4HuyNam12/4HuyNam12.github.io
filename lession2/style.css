@@ -1,0 +1,83 @@
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.yellow {
+  color: yellow;
+  background-color: red;
+}
+.white {
+  background-color: white;
+  color: black;
+}
+.background.main {
+  background-image: url("https://xq3tj.csb.app/paper-background.jpg");
+  background-position: bottom;
+  background-repeat: repeat;
+  background-size: 3px;
+}
+.headmainfont {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: red;
+  font-style: italic;
+}
+.menumainfont {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  color: blue;
+  font-style: bold;
+  border: 1px;
+}
+h3 {
+  color: red;
+}
+.background.page1 {
+  background-image: url("https://xq3tj.csb.app/comjpg.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.background.page2 {
+  background-image: url("https://xq3tj.csb.app/hn1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+.link.border.main {
+  border: 10px solid red;
+  border-radius: 5px;
+}
+
+.link.border.page1 {
+  border: 1px dotted red;
+}
+.link.border.page2 {
+  border: 10px dotted yellow;
+}
+.liststyle.main {
+  list-style-type: circle;
+}
+
+.liststyle.page1 {
+  list-style-type: square;
+}
+
+.liststyle.page2 {
+  list-style-type: upper-roman;
+}
+.link:visited {
+  color: green;
+}
+.link:hover {
+  color: pink;
+}
+
+.link:active {
+  color: blue;
+}
+.link {
+  display: inline-block;
+}
