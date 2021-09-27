@@ -2,21 +2,21 @@ header {
   background-color: rgb(25, 90, 230);
   padding: 1.5em;
   text-align: center;
-} /*màu cho thanh menu */
+}
 nav {
   background-color: #1abc9c;
 }
-/*chỉnh đốn vị trí và loại bỏ đống bullet phía trước các mục trong li*/
+
 nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/*đưa các mục về hàng ngang*/
+
 nav li {
   display: inline-block;
 }
-/*trang điểm*/
+
 nav li a {
   display: inline-block;
   text-decoration: none;
@@ -29,13 +29,10 @@ nav li:hover {
 * {
   box-sizing: border-box;
 }
-/*tạo tí màu mè cho phần content*/
+
 section {
   background-color: lightgrey;
-
-
 }
-/*chia cột thành 3 phần và làm nó trên cùng một hàng*/
 div {
   width: 26%;
   float: left;
