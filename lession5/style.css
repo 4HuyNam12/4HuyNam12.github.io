@@ -123,7 +123,7 @@ h3{
     flex-wrap: wrap;
     flex-grow: 3px;
     height: 600px;
-    list-style :symbols(.);
+    list-style :symbols();
     color : black;
     text-align: -webkit-match-parent;
 
