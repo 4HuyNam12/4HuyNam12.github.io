@@ -1,0 +1,337 @@
+.grid> row {
+    display: flex;
+    margin: 0 -12px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.jusityf-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.col-1 {
+    flex-basis: 8.333333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-2 {
+    flex-basis: 16.666667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-3 {
+    flex-basis: 25%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-4 {
+    flex-basis: 33.333333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-5 {
+    flex-basis: 41.666667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-6 {
+    flex-basis: 50%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-7 {
+    flex-basis: 58.333333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-8 {
+    flex-basis: 66.666667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-9 {
+    flex-basis: 75%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-10 {
+    flex-basis: 83.333333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-11 {
+    flex-basis: 91.666667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-12 {
+    flex-basis: 100%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.facebook-logo {
+    width: 300px;
+    height: 100px;
+}
+.login-form{
+    background-color: #fff;
+    width: 396px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #ccd0d5;
+}
+.login-button {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #1877f2;
+}
+.username, .password, .login-button {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.password-forgot {
+    display: block;
+    color: #1877f2;
+    margin-top: 6px;
+    text-align: center;
+    border-bottom: 1px solid #ccd0d5;
+    padding-bottom: 12px;
+}
+.register-button {
+    display: flex;
+    justify-content: center;
+}
+.register-link {
+    text-decoration: none;
+    display: block;
+    width: 175px;
+    padding: 13px;
+    color: #fff;
+    background-color:  #42b72a;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.grid {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.facebook-heading {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 28px;
+}
+body {
+    display: block;
+    margin: 0px;
+}
+.login-form-wrap {
+    padding: 16px;
+}
+a:link{
+    text-decoration: none;
+}
+input{
+    outline-color: #1877f2;
+    width: 100%;
+    padding: 10px;
+    margin-top:10px;
+    border: 1px solid black;
+  border-radius: 4px;
+}
+
+
+.signin-form{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top :100px;
+    width:400px;
+    height:300px;
+
+}
+select {
+  width: 100%;
+  padding: 7px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.row{
+     display: flex;
+    margin: 0 -12px;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-gender-wrap{
+    display: flex;
+    width: 100%;
+    padding-top :5px;
+    justify-content:space-between;
+    box-sizing: border-box;
+    
+
+}
+.form-gender {
+    min-width: 110px;
+    border: 1px solid #ccd0d5;
+    margin:0px 3px;
+    border-radius: 5px;
+    padding:0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-name {
+    width: 203px;
+}
+.last-name{
+    width:203px;
+}
+p{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.new-password{
+    margin-bottom:10px;
+}
+.form-birthday{
+
+}
+.gioitinh{
+    margin-top :20px;
+    margin-bottom:2px;
+}
+.accept{
+    margin-top :20px;
+    font-size: 13px;
+}
+.form , .table-link {
+    display: block;
+    font-size:30px;
+}
+.table{
+    caption-side: bottom;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    padding: 100px;
+}
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+thead{
+    border : 2px solid black;
+}
+th{
+    padding :10px;
+    text-align: center;
+}
+td{
+    text-align: left;
+    padding :10px;
+}
+caption{
+    font-size: 50px;
+    color :red
+}
+td, th{
+     border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: lightblue;}
