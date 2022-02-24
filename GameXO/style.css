@@ -1,0 +1,104 @@
+:root {
+  --bg1: #9b59b6;
+  --bg2: #3498db;
+  --text: #26ade4;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+#container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom right, var(--bg1), var(--bg2));
+}
+
+h1 {
+color: Yellow;
+margin :20px;
+}
+input {
+  display: flex;
+  margin :10px 0 0;
+  height: 10px;
+  width: 230px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: yellow;
+}
+
+table,
+tbody,
+tr,
+td {
+  border: 2.5px solid black;
+  border-collapse: collapse;
+}
+td,
+tr {
+  width: 35px;
+  max-width: 35px;
+  height: 35px;
+  max-height: 35px;
+  padding: 15px;
+  color : white;
+}
+table {
+display: flex;
+justify-content: center;
+border: none;
+text-align: center;
+  align-items: center;
+  margin :20px;
+}
+form {
+    position:relative;
+  text-align: center;
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+
+}
+
+#inputText{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 15px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 3px solid yellow;
+  border-radius: 5px;
+  background-color: yellow;
+}
+#buttonReset{
+    position : absolute;
+}
+p{
+    display: block;
+    margin: 10px;
+    color:white;
+}
+button.text1{
+    position : absolute;
+    top : 180px;
+    left: 50px;
+    width:200px;
+    height: 50px;
+
+}

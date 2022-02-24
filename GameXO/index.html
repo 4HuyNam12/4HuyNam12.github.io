@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+        <h1>Game X-O</h1>
+      <form action="" id="form">
+        <input type="text" id="name1" class ="inputText" placeholder="Player1" required /></br>
+        <input type="text" id="name2" class ="inputText" placeholder="Player2" required/></br>
+        <button id ="submit" class="btn text">Submit</button>
+        <p id="turnNode">Player's turn: </p>
+      <table>
+        <tbody>
+          <tr>
+            <td id="1" ></td>
+            <td id="2" ></td>
+            <td id="3" ></td>
+          </tr>
+          <tr>
+            <td id="4" ></td>
+            <td id="5" ></td>
+            <td id="6"></td>
+          </tr>
+          <tr>
+            <td id="7" ></td>
+            <td id="8" ></td>
+            <td id="9" ></td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="status" class ="text"></p>
+      <button id ="reset" class="text1" hidden >PLAY AGAIN?</button>
+      </form>
+    </div>
+    <script src="/GameXO/script.js"></script>
+  </body>
+</html>
