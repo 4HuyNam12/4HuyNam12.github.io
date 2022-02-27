@@ -4,6 +4,7 @@ const btnAdd = document.querySelector(".btn-add");
 const btnUpdate = document.querySelector(".btn-update");
 const taskNameEl = document.querySelector(".form-control");
 const summaryEl = document.querySelector(".summary-text");
+const statusAddBtn = document.querySelector(".btn-add");
 
 taskNameEl.focus();
 
@@ -73,6 +74,7 @@ function editTask(id = 0) {
     taskNameEl.value = tasks[id].name;
     taskNameEl.focus();
     btnAdd.hidden = true;
+    statusAddBtn.disabled = true;
     btnUpdate.hidden = !btnAdd.hidden;
   }
   btnUpdate.addEventListener("click", function () {
@@ -83,6 +85,7 @@ function editTask(id = 0) {
       renderTask(tasks);
       btnAdd.hidden = false;
       btnUpdate.hidden = true;
+      statusAddBtn.disabled = false;
     } else {
       return false;
     }
