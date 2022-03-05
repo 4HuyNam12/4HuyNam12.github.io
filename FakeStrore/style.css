@@ -1,0 +1,42 @@
+body {
+    background: #d9fdfe;
+    padding: 20px;
+    font-family: Arial;
+    /* background-image: url(https://bizweb.dktcdn.net/100/350/980/themes/802125/assets/slider_1.jpg?1638757174469); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    background: #00b8ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    display: block;
+    overflow: hidden;
+}
+
+.icon {
+    font-size: 80px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.xoay {
+    animation: xoay 1.5s linear infinite;
+}
+
+@-webkit-keyframes xoay {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
