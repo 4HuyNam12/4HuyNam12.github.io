@@ -6,6 +6,12 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+img {
+    width: 65%;
+    height: 65%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 5px black);
+}
 
 .loader {
     width: 100%;
